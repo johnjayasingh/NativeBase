@@ -135,7 +135,7 @@ export class Accordion extends React.Component {
   state = { selected: undefined };
   setSelected(index) {
     if (this.state.selected === index) {
-      this.setState({ selected: undefined });
+      this.setState({ selected: 0 });
     } else {
       this.setState({ selected: index });
     }
